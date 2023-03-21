@@ -16,7 +16,7 @@ void print_to_98(int m)
 		{
 			printf("%d", i);
 			if (i != 98)
-				printf(",");
+				printf(", ");
 		}
 		printf("\n");
 	}
@@ -26,7 +26,7 @@ void print_to_98(int m)
 		{
 			printf("%d", i);
 			if (i != 98)
-				printf(",");
+				printf(", ");
 		}
 	printf("\n");
 	}
@@ -36,7 +36,7 @@ void print_to_98(int m)
 		{
 			printf("%d", i);
 			if (i != 98)
-				printf(",");
+				printf(", ");
 		}
 		printf("\n");
 	}
