@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - program that finds and prints the first 98 Fibonacci numbers
+ * main - program that finds and prints terms of equal value
  * Return: 0
  */
 
 int main(void)
 {
 	int i;
-	unsigned long int m,n,next,sum;
+	unsigned long int m, n, next, sum;
 
 	m = 1;
 	n = 2;
