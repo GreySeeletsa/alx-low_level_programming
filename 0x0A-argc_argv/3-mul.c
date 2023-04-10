@@ -8,12 +8,7 @@
 
 int _atoi(char *s)
 {
-	int a;
-	int b;
-	int c;
-	int d;
-	int e;
-	int f;
+	int a, b, c, d, e, f;
 
 	a = 0;
 	b = 0;
@@ -59,9 +54,7 @@ int _atoi(char *s)
 
 int main(int argc, char *argv[])
 {
-	int m;
-	int n1;
-	int n2;
+	int m, n1, n2;
 
 	if (argc < 3 || argc > 3)
 	{
