@@ -28,7 +28,7 @@ int _atoi(char *s)
 			f = s[a] - '0';
 
 			if (b % 2)
-				f = f;
+				f = -f;
 
 			c = c * 10 + f;
 
