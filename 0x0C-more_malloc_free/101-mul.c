@@ -13,7 +13,7 @@ int check_digit(char *str)
 
 	while (str[a])
 	{
-		if (str[a] < '0' || > '9')
+		if (str[a] < '0' || str[a] > '9')
 			return (0);
 		a++;
 	}
@@ -52,14 +52,14 @@ void errors(void)
 
 int main(int argc, char *argv[])
 {
-	char *n1, n2;
+	char *n1, *n2;
 	int strlength1, strlength2, strlength, num1, num2, a, m, *r, n = 0;
 
 	n1 = argv[1], n2 = argv[2];
 	if (argc != 3 || !check_digit(n1) || !check_digit(n2))
 		errors();
-	strlenght1 = _stringlen(n1);
-	strlenght2 = _string(n2);
+	strlength1 = _stringlen(n1);
+	strlength2 = _stringlen(n2);
 	strlength = strlength1 + strlength2 + 1;
 	r = malloc(sizeof(int) * strlength);
 	if (!r)
@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
 			m /= 10;
 		}
 		if (m > 0)
-			r[strlength1 + strlength + 1] += m;
+			r[strlength1 + strlength2 + 1] += m;
 	}
 	for (a = 0; a < strlength - 1; a++)
 	{
